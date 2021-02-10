@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+.head{
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    letter-spacing: 0.2rem;
+}
+
+.content{
+    display: flex;
+    padding-top: 13rem;
+    margin: 3rem 3rem;
+}
+
+.content-image{
+    width: 50%;
+}
+
+.content-image .img-scarecrow{
+    width: 600px;
+    height: 500px;
+}
+
+.content-text{
+    width: 50%;
+    display: inline-block;
+}
+
+.content-text h2{
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bolder;
+    letter-spacing: -0.003rem;
+}
+
+.content-text p{
+    max-width: 800px;
+    font-size: x-large;
+    text-align: justify;
+    margin: auto;
+    padding-bottom: 8rem;
+}
+
+.content-text a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+footer{
+    letter-spacing: 0.04rem;
+    text-align: center;
+}
