@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    max-width: 100%;
 }
 
 body{
@@ -20,12 +21,13 @@ body{
 
 .content{
     display: flex;
+    flex-wrap: wrap;
     top: 5rem;
     margin: 1rem 1rem;
 }
 
 .content-image{
-    width: 50%;
+    max-width: 50vw;
     height: 70vh;
     margin: 1rem 1rem 1rem 1rem;
 }
@@ -38,7 +40,6 @@ body{
 
 .content-text{
     width: 50%;
-    display: inline-block;
     margin: 1rem 1rem;
 }
 
